@@ -1,0 +1,33 @@
+{
+  "name": "mern_skeleton",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --exec babel-node server.js",
+    "development": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "development": "^0.0.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/node": "^7.25.7",
+    "@babel/preset-env": "^7.25.8",
+    "nodemon": "^3.1.7"
+  }
+}
